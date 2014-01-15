@@ -8,6 +8,8 @@ In much of my previous work, I’ve talked about [Ruby on Rails][Rails], but it 
 
 Good news for you: it’s very easy to get into.
 
+<!--more-->
+
 ###What is Ruby on Rails?
 Called “Rails” for short, it is a framework for building web applications. It’s based on the programming language Ruby, but you don’t have to learn Ruby first. Lots of folks just jump straight into Rails.
 

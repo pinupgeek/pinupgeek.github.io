@@ -7,6 +7,9 @@ date:   2014-01-03 10:34:09
 As per tradition, the newest MRI Ruby release (<a href="https://www.ruby-lang.org/en/news/2013/12/25/ruby-2-1-0-is-released/" target="_blank">2.1.0</a>) came out on Christmas Day. The new release has been met with praise of its performance increases thanks to the new <a href="http://www.infoq.com/news/2013/12/ruby21" target="_blank">RGenGC</a> generational <a href="http://www.i-programmer.info/news/98-languages/6807-ruby-21-with-better-garbage-collection.html" target="_blank">garbage collector</a> and improved method caching.
 
 Other notable changes include
+
+<!--more-->
+
 <ul>
 	<li>refinements <a href="https://bugs.ruby-lang.org/issues/8481" target="_blank">#8481</a> <a href="https://bugs.ruby-lang.org/issues/8571" target="_blank">#8571</a></li>
 	<li>syntax changes

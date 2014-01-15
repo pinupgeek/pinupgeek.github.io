@@ -6,36 +6,37 @@ title: Pin-Up Geek
 
     {% for post in paginator.posts %}
 		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<p>{{ post.excerpt }}		<span class="pull-right"><a href="{{ post.url }}">Read More &rarr;</a></span></p>
+		<p>{{ post.excerpt }}</p>		
+		<p><a href="{{ post.url }}">Read More &rarr;</a></p>
 		<hr>
     {% endfor %}
 
   
-  <div class="pagination">
+  <div class="pagination center-block">
 	  {% if paginator.total_pages > 1 %}
-	  <div class="pagination">
+	  <ul class="pager">
 	    {% if paginator.previous_page %}
-	      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+	      <li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Previous</a></li>
 	    {% else %}
-	      <span>&laquo; Prev</span>
+	      <li class="disabled"></li>
 	    {% endif %}
 
-	    {% for page in (1..paginator.total_pages) %}
+	   <!-- {% for page in (1..paginator.total_pages) %}
 	      {% if page == paginator.page %}
-	        <em>{{ page }}</em>
+	        <li class="active"><a>{{ page }}</a></li>
 	      {% elsif page == 1 %}
-	        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+	        <li><a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
 	      {% else %}
-	        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+	        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
 	      {% endif %}
-	    {% endfor %}
+	    {% endfor %} -->
 
 	    {% if paginator.next_page %}
-	      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+	      <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a></li>
 	    {% else %}
-	      <span>Next &raquo;</span>
+	      <li class="disabled"></li>
 	    {% endif %}
-	  </div>
+	  </ul>
 	  {% endif %}
   
 </div>
