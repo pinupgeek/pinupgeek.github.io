@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: Pin-Up Geek
 markdown: redcarpet
 pygments: true
+permalink: /:title
+paginate: 10
+paginate_path: "page:num"
