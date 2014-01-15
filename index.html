@@ -6,7 +6,7 @@ title: Pin-Up Geek
 
     {% for post in paginator.posts %}
 		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<p>{{ post.excerpt }}</p>
+		<p>{{ post.excerpt }}		<span class="pull-right"><a href="{{ post.url }}">Read More &rarr;</a></span></p>
 		<hr>
     {% endfor %}
 
