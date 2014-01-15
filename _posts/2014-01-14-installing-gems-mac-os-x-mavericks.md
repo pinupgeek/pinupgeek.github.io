@@ -4,7 +4,7 @@ title:  "Installing Gems in Mac OS X Mavericks"
 date:   2014-01-14 19:34:09
 ---
 
-<img class="pull-right" alt="Installing Gems in Mac OS X Mavericks" src="/assets/jekyll.png" width="300" height="138" />I decided to do some work with a <a title="GitHub Pages" href="http://pages.github.com/" target="_blank">GitHub Pages</a> page today. What's more, I chose to do some work with <a title="Jekyll" href="http://jekyllrb.com/" target="_blank">Jekyll</a>, since it's supported by Pages. I was having a terrible getting Jekyll installed on my MacBook Pro, so I decided I'd publish this quick post to help out anyone else who might be having the same problem.
+<img class="pull-right img-responsive" alt="Installing Gems in Mac OS X Mavericks" src="/assets/jekyll.png" />I decided to do some work with a <a title="GitHub Pages" href="http://pages.github.com/" target="_blank">GitHub Pages</a> page today. What's more, I chose to do some work with <a title="Jekyll" href="http://jekyllrb.com/" target="_blank">Jekyll</a>, since it's supported by Pages. I was having a terrible getting Jekyll installed on my MacBook Pro, so I decided I'd publish this quick post to help out anyone else who might be having the same problem.
 
 Every time I ran the command to install Jekyll (<code>sudo gem install jekyll</code>), I kept getting this response:
 
