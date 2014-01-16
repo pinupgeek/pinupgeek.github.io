@@ -14,3 +14,8 @@ code {
 .footer {
 	padding-top: 50px;
 }
+
+.meta {
+	font-style: italic;
+	color: #666;
+}
