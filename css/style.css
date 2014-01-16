@@ -2,11 +2,15 @@
 	padding-top: 50px;
 }
 
-.sidebar, .footer {
+.sidebar {
 	padding-top: 25px;
 	text-align: center;
 }
 
 code {
 	white-space:normal;
+}
+
+.footer {
+	padding-top: 50px;
 }
