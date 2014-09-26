@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+		{% if page.url == 404.html  %}
+		    <meta http-equiv="refresh" content="10; url=/">
+		{% endif %}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }} {% if page.title != "Pin-Up Geek" %}| {{ site.name }} {% endif %}</title>
