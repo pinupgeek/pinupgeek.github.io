@@ -8,6 +8,8 @@ date:   2014-03-24 12:00:00
 <a href="http://cm.bell-labs.com/cm/cs/who/dmr/picture.html" target="_blank">(Source: Dennis Ritchie homepage)</a></p>
 Years ago, I was shocked to discover a young developer friend had never heard of BEA, JBoss, or app servers at all. Growing up with virtual machines and distributed systems, he couldn’t be bothered to look back 10 years to understand how we reached this “cloudy” present. But understanding the basics of our computing past helps us appreciate our present.
 
+<!--more-->
+
 Similarly, many developers are so immersed in open source that they have no conception of how we got here or what made it possible. In overlooking this past, they may misunderstand how best to invent the future, as articles from open-source luminaries Eric Raymond and Tim O’Reilly indicate.
 <h3>Learning from UNIX</h3>
 As <a href="http://esr.ibiblio.org/?p=5277" target="_blank">Raymond posits</a>, UNIX was important not so much because of its invention of the first non-assembler language -- but rather, by “creat[ing] the modern idea of software systems that are cleanly layered and built from replaceable parts, and of re-targetable development tools.”
